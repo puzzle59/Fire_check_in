@@ -1,0 +1,8 @@
+f=open("writing_test.txt", 'w')
+f.write("coucou")
+f.seek(2)
+f.write("$$")
+f.seek(6)
+f.write("$$$$$$$$$$$$$$$$$$")
+f.seek(f.tell())
+f.write("bah alors pourquoi tu fais chier write method??????????")
